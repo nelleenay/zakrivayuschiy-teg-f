@@ -32,7 +32,7 @@
   align-items: center;
   gap: 25px;
   margin: 100px 0 98px;
-  padding: 120px 16px 13px;
+  padding: 135px 14px 22px;
   max-inline-size: 700px;
   margin-inline: auto;
   font-family: var(--accent-font), sans-serif;
@@ -81,6 +81,7 @@
   flex-direction: column;
   gap: 8px;
   margin-inline-start: 23px;
+  font-size: 14px;
 }
 
 .theme-menu__button {
@@ -132,7 +133,7 @@
 
 .main {
   display: grid;
-  gap: 54px;
+  gap: 47px;
   max-inline-size: 700px;
   margin-inline: auto;
 }
@@ -147,11 +148,12 @@
   font-variation-settings: "wght" var(--heading-font-weight);
   font-size: 18px;
   line-height: 21px;
-  padding: 10px 10px 3px;
+  padding: 4px 10px 6px 10px;
 }
 
 .card__container {
   position: relative;
+  aspect-ratio: 1/1;
 }
 
 .image {
@@ -189,10 +191,6 @@
   font-size: 14px;
   position: relative;
   cursor: pointer;
-}
-
-.button:focus {
-  outline: none;
 }
 
 .card__like-button:focus-visible {
@@ -257,6 +255,7 @@
   margin-inline: auto;
   inline-size: 335px;
   block-size: 50px;
+  margin-block-start: 4px;
 }
 
 .floppy {
@@ -346,19 +345,20 @@
 }
 
 @media (width <= 375px) {
+  .header {
+    padding-block-start: 120px;
+  }
+
   .card__container {
     inline-size: 371px;
-    block-size: 371px;
+    block-size: 375px;
   }
 
   .dialog-button {
     flex-direction: column;
     inline-size: 306px;
     block-size: 80px;
-    gap: 0;
-  }
-  .save-text {
-    padding-block-end: 10px;
+    gap: 3px;
   }
 
   .floppy {
