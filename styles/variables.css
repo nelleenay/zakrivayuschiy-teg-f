@@ -2,4 +2,19 @@
 :root {
   --main-font: "Inter-Variable", sans-serif;
   --accent-font: "PressStart2P", sans-serif;
+  --accent-color: #000;
+  --bg-color: #fff;
+  --main-font-weight: 400;
+  --heading-font-weight: 700;
+  --button-color: #fff;
+  --bg-image: repeating-linear-gradient(
+      to right,
+      #d3d3d3 0px 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #d3d3d3 0px 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --heart-countour-color: #000;
+  --heart-filled-color: #ff0000;
+  --heart-full-color: #000;
 }
