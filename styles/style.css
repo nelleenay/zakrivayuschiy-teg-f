@@ -61,7 +61,6 @@
   font-family: var(--accent-font), sans-serif;
   font-size: 14px;
   line-height: 14px;
-  font-family: var(--accent-font), sans-serif;
   text-shadow: 1px 1px var(--bg-color), -1px -1px var(--bg-color);
   opacity: 0.5;
   position: absolute;
@@ -361,12 +360,12 @@
   .save-text {
     padding-block-end: 10px;
   }
-}
 
-.floppy {
-  inline-size: 28px;
-}
+  .floppy {
+    inline-size: 28px;
+  }
 
-.dialog__opened-button {
-  inline-size: 257px;
+  .dialog__opened-button {
+    inline-size: 257px;
+  }
 }
